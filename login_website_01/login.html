@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <h1>Login</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="button">Home</a></li>
+                <li><a href="signup.html" class="button">Signup</a></li>
+                <li><a href="login.html" class="button">Login</a></li>
+                <li><a href="checklogin.html" class="button">Check Login</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form autocomplete="off"></form>
+        <form>
+            <label>=======================================</label><br>
+            <label id="output_login"> Please login using the boxes below </label><br>
+            <label>=======================================</label><br><br>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br><br>
+            <button type="button" id="loginButton">Login</button>
+        </form>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
